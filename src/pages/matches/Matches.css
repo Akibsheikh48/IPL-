@@ -1,0 +1,73 @@
+
+.MostRuns > h1 {
+    color: rgb(74, 91, 107);
+    font-size: 2.6rem;
+  
+    font-style: italic;
+    margin-left: 40%;
+  }
+  .Top {
+    display: flex;
+    background-color: rgb(31, 27, 22);
+    color: rgb(150, 137, 137);
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 20px;
+  }
+  
+  .Top > h2 {
+    cursor: pointer;
+    width: 30%;
+    font-weight: 500;
+    opacity: 1;
+  }
+  .Top >h2> h4 {
+    cursor: pointer;
+    font-weight: 300;
+    opacity: 0.8;
+  }
+  .Top-second{
+    display: flex;
+    background-color: rgb(59, 9, 0);
+    color: rgb(150, 137, 137);
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 20px;
+  }
+  .Top-second> h2{
+    cursor: pointer;
+    width: 30%;
+    font-weight: 500;
+    opacity: 1;
+  }
+  .Top-second> h2 >h4 {
+    cursor: pointer;
+    font-weight: 300;
+    opacity: 0.8;
+  }
+
+
+
+
+
+  /* hide the scroolbar from chrome , safari and opera */
+.Top::-webkit-scrollbar {
+  display: none;
+}
+/* hide scrollbar from IE , edge, and firefox */
+.Top{
+  -ms-overflow-style: none;
+    /* IE and Edge  */
+  scrollbar-width: none;
+  /* firefox */
+}
+.Top-second::-webkit-scrollbar {
+  display: none;
+}
+/* hide scrollbar from IE , edge, and firefox */
+.Top-second{
+  -ms-overflow-style: none;
+    /* IE and Edge  */
+  scrollbar-width: none;
+  /* firefox */
+}

@@ -1,0 +1,20 @@
+.home {
+  display: flex;
+  align-items: center;
+  
+  overflow-x: scroll;
+}
+.home::-webkit-scrollbar {
+  display: none;
+}
+/* hide scrollbar from IE , edge, and firefox */
+.home {
+  -ms-overflow-style: none;
+  /* IE and Edge  */
+  scrollbar-width: none;
+  /* firefox */
+}
+.home > img {
+    height: 100vh;
+    margin-right: 5px;
+}

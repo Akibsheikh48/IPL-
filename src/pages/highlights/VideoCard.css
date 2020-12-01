@@ -1,0 +1,24 @@
+.videoCard > h2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: aliceblue;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    font-style: italic;
+}
+
+.videos {
+    display: flex;
+    overflow-x: scroll;
+    
+}
+.videos::-webkit-scrollbar {
+    display: none;
+  }
+  /* hide scrollbar from IE , edge, and firefox */
+  .videos {
+    -ms-overflow-style: none;
+    /* IE and Edge  */
+    scrollbar-width: none;
+    /* firefox */
+  }
