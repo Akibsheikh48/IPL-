@@ -1,0 +1,112 @@
+.mostRuns {
+  
+  
+  background-image: linear-gradient(
+    -225deg,
+    #607fd4 0%,
+    #55518d 48%,
+    #228f8f 75%,
+    #347d86 100%
+  );
+}
+.mostRuns > h1 {
+  color: rgb(25, 27, 29);
+  font-size: 2.6rem;
+
+  font-style: italic;
+  margin-left: 40%;
+}
+.top {
+  display: flex;
+  background-color: rgb(31, 22, 6);
+  color: rgb(150, 137, 137);
+  overflow-x: scroll;
+  padding: 10px;
+  padding-left: 50px;
+}
+
+.top > h2 {
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 40%;
+  font-weight: 500;
+  opacity: 0.9;
+}
+.detail {
+  display: flex;
+  color: rgb(43, 8, 8);
+  overflow-x: scroll;
+  padding: 10px;
+  padding-left: 50px;
+  margin-top: 10px;
+  
+}
+.detail > h2 {
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 40%;
+  font-weight: 500;
+
+}
+.detail1 {
+  display: flex;
+  color: rgb(218, 122, 122);
+  overflow-x: scroll;
+  padding: 10px;
+  background-color: rgb(48, 32, 4);
+  padding-left: 50px;
+  
+}
+.detail1 > h2 {
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: 30px;
+  width: 40%;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+/* hide the scroolbar from chrome , safari and opera */
+.mostRuns::-webkit-scrollbar {
+  display: none;
+}
+/* hide scrollbar from IE , edge, and firefox */
+.mostRuns {
+  -ms-overflow-style: none;
+  /* IE and Edge  */
+  scrollbar-width: none;
+  /* firefox */
+}
+/* hide the scroolbar from chrome , safari and opera */
+.top::-webkit-scrollbar {
+  display: none;
+}
+/* hide scrollbar from IE , edge, and firefox */
+.top {
+  -ms-overflow-style: none;
+  /* IE and Edge  */
+  scrollbar-width: none;
+  /* firefox */
+}
+.detail::-webkit-scrollbar {
+  display: none;
+}
+/* hide scrollbar from IE , edge, and firefox */
+.detail {
+  -ms-overflow-style: none;
+  /* IE and Edge  */
+  scrollbar-width: none;
+  /* firefox */
+}
+.detail1::-webkit-scrollbar {
+  display: none;
+}
+/* hide scrollbar from IE , edge, and firefox */
+.detail1 {
+  -ms-overflow-style: none;
+  /* IE and Edge  */
+  scrollbar-width: none;
+  /* firefox */
+}

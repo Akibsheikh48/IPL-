@@ -1,0 +1,35 @@
+.Nav__option {
+    display: flex;
+    color: white;
+    overflow-x: scroll;
+    padding: 10px;
+    padding-left: 50px;
+    text-decoration: none;
+  
+}
+/* hide the scroolbar from chrome , safari and opera */
+.Nav__option::-webkit-scrollbar {
+    display: none;
+}
+/* hide scrollbar from IE , edge, and firefox */
+.Nav__option{
+    -ms-overflow-style: none;
+      /* IE and Edge  */
+    scrollbar-width: none;
+    /* firefox */
+}
+
+.nav__optionLine {
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    opacity: 0.7;
+    transition:  transform 50ms ease-out;
+  
+}
+.nav__optionLine:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
